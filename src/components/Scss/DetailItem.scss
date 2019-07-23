@@ -1,0 +1,32 @@
+@import './Utility.scss';
+
+.detailitem {
+  width: 100%;
+  @include flexbox;
+  justify-content: flex-start;
+}
+
+.detailitem__image {
+  width: 9rem;
+  height: 9rem;
+  margin: 0 2rem 0 0;
+}
+
+.detailitem__text {
+  @include flexbox-vertical;
+  align-items: flex-start;
+}
+
+.detailitem__text__h3,
+.detailitem__text__p {
+  margin: 0;
+}
+
+.detailitem__text__h3 {
+  @include font-display;
+  margin: 0 0 1rem 0;
+}
+
+.detailitem__text__p {
+  line-height: 1.75rem;
+}
