@@ -7,6 +7,7 @@ import Details from './Details';
 import Map from './Map';
 import Schedule from './Schedule';
 import Banner1 from './Banner1';
+import PurchaseOptions from './PurchaseOptions';
 import Footer from './Footer';
 
 import Banner1Image from '../img/banner1.png';
@@ -27,6 +28,7 @@ class App extends Component {
           bannerSubtitle='Vestibulum purus quam.'
           bannerDescription='Phasellus consectetuer vestibulum elit. Aenean tellus metus, bibendum sed, posuere ac, mattis non, nunc. Vestibulum fringilla pede sit amet augue. In turpis. Pellentesque posuere. Phasellus consectetuer vestibulum elit. Aenean tellus metus, bibendum sed, posuere ac, mattis non, nunc. Vestibulum fringilla pede sit amet augue. In turpis. Pellentesque posuere.'
         />
+        <PurchaseOptions />
         <Footer />
       </div>
     );
