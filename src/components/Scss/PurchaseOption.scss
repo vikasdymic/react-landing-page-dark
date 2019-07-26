@@ -7,7 +7,8 @@
   border: 2px solid $light;
   border-radius: 0.5rem;
   color: $light;
-  transition: all 0.5s ease;
+  transition: all 0.25s ease;
+  z-index: 1;
 }
 
 .option--active {
@@ -15,6 +16,7 @@
   color: $light;
   transform: scale(1.15);
   border: none;
+  z-index: 5;
 }
 
 .option > * + * {
