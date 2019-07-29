@@ -11,17 +11,9 @@ class PurchaseOptions extends Component {
     };
   }
 
-  componentDidMount() {
-    global.document.addEventListener( 'click', this.handleClick, false )
-  }
-
-  componentWillUnmount() {
-    global.document.addEventListener( 'click', this.handleClick, false )
-  }
-
-  handleClick(event) {
-    if(event.target.classList.contains('option')) {
-      this.setState({ cardActive: event.target.dataset.key });
+  handleClick(cardKey) {
+    if(cardKey !== this.state.cardActive) {
+      this.setState({ cardActive: cardKey });
     }
   }
 
@@ -38,6 +30,7 @@ class PurchaseOptions extends Component {
             optionButton='Purchase Now'
             itemKey='1'
             activeKey={this.state.cardActive}
+            clicked={this.handleClick}
           />
           <PurchaseOption
             optionTitle='Lorem ipsum'
@@ -46,6 +39,7 @@ class PurchaseOptions extends Component {
             optionButton='Purchase Now'
             itemKey='2'
             activeKey={this.state.cardActive}
+            clicked={this.handleClick}
           />
           <PurchaseOption
             optionTitle='Lorem ipsum'
@@ -54,6 +48,7 @@ class PurchaseOptions extends Component {
             optionButton='Purchase Now'
             itemKey='3'
             activeKey={this.state.cardActive}
+            clicked={this.handleClick}
           />
         </div>
       </section>
