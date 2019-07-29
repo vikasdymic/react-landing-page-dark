@@ -13,13 +13,17 @@ class PurchaseOption extends Component {
     return this.props.itemKey === this.props.activeKey ? 'option__cost option__cost--active' : 'option__cost';
   }
 
+  clicked = () => {
+    this.props.clicked(this.props.itemKey);
+  }
+
   render() {
     return (
-      <article className={this.setActiveAll()} data-key={this.props.itemKey}>
-        <h4 className='option__title'>{this.props.optionTitle}</h4>
-        <p className={this.setActiveCost()}>{this.props.optionCost}</p>
-        <p className='option__description'>{this.props.optionDescription}</p>
-        <button className='option__button' type='button' value={this.props.optionButton}>{this.props.optionButton}</button>
+      <article onClick={this.clicked} className={this.setActiveAll()} data-key={this.props.itemKey}>
+        <h4 onClick={this.clicked} data-key={this.props.itemKey} className='option__title'>{this.props.optionTitle}</h4>
+        <p onClick={this.clicked} data-key={this.props.itemKey} className={this.setActiveCost()}>{this.props.optionCost}</p>
+        <p onClick={this.clicked} data-key={this.props.itemKey} className='option__description'>{this.props.optionDescription}</p>
+        <button onClick={this.clicked} data-key={this.props.itemKey} className='option__button' type='button' value={this.props.optionButton}>{this.props.optionButton}</button>
       </article>
     );
   }

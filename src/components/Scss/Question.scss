@@ -1,7 +1,7 @@
 @import "./Utility.scss";
 
 .question {
-  margin: 0 0 0 4rem;
+  margin: 0 0 0 5rem;
   position: relative;
 }
 
@@ -14,7 +14,7 @@
   color: $dark3;
   position: absolute;
   top: 4px;
-  left: -55px;
+  left: -75px;
   font-size: 1.7rem;
   width: 35px;
   height: 35px;
@@ -35,4 +35,5 @@
 .question__answer {
   margin: 0;
   @include font-body;
+  line-height: $line__height;
 }

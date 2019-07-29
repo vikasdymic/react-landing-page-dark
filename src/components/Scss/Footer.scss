@@ -8,8 +8,11 @@
 .footer__upper {
   display: grid;
   grid-template:
+        '. . .' 1fr
         'about support info' auto
+        '. . .' 1fr
         / 1fr 1fr 1fr;
+  grid-column-gap: 2rem;
   height: 404px;
 }
 
@@ -26,7 +29,7 @@
 
 .footer__upper__background {
   grid-column: 1 / 4;
-  grid-row: 1 / 2;
+  grid-row: 1 / 4;
   background-color: $dark4;
 }
 
@@ -39,7 +42,7 @@
 .footer__upper__info {
   position: relative;
   z-index: 5;
-  align-self: center;
+  align-self: flex-start;
 }
 
 .footer__upper__about {
@@ -58,19 +61,55 @@
   font-size: 1.15rem;
   color: $accent1;
   text-transform: uppercase;
-  margin: 0 0 1.6rem 0;
+  margin: 0 0 1rem 0;
 }
 
 .footer__upper__about__paragraph {
-  line-height: 1.75rem;
+  line-height: $line__height;
 }
 
 .footer__upper__support {
   grid-area: support;
 }
 
+.footer__upper__support__list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer__upper__support__list__item {
+  border-bottom: 1px solid $dark5;
+  padding: 0.75rem 0;
+  position: relative;
+  @include font-body;
+}
+
+.footer__upper__support__list__item::after {
+  position: absolute;
+  right: 0;
+  top: 1px;
+  width: 2.6rem;
+  height: 2.6rem;
+  content: '';
+  background-image: url(../../img/arrow.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.footer__upper__support__list__item > a {
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+}
+
 .footer__upper__info {
   grid-area: info;
+}
+
+.footer__upper__info__paragraph {
+  line-height: $line__height;
+  @include font-body;
 }
 
 .footer__lower {
