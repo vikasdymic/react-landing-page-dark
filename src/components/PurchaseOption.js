@@ -1,10 +1,6 @@
 import React, { Component } from 'react';
 
 class PurchaseOption extends Component {
-  constructor(props) {
-    super(props);
-  }
-
   setActiveAll = () => {
     return this.props.itemKey === this.props.activeKey ? 'option option--active' : 'option';
   }
@@ -20,10 +16,10 @@ class PurchaseOption extends Component {
   render() {
     return (
       <article onClick={this.clicked} className={this.setActiveAll()} data-key={this.props.itemKey}>
-        <h4 onClick={this.clicked} data-key={this.props.itemKey} className='option__title'>{this.props.optionTitle}</h4>
-        <p onClick={this.clicked} data-key={this.props.itemKey} className={this.setActiveCost()}>{this.props.optionCost}</p>
-        <p onClick={this.clicked} data-key={this.props.itemKey} className='option__description'>{this.props.optionDescription}</p>
-        <button onClick={this.clicked} data-key={this.props.itemKey} className='option__button' type='button' value={this.props.optionButton}>{this.props.optionButton}</button>
+        <h4 onClick={this.clicked} className='option__title'>{this.props.optionTitle}</h4>
+        <p onClick={this.clicked} className={this.setActiveCost()}>{this.props.optionCost}</p>
+        <p onClick={this.clicked} className='option__description'>{this.props.optionDescription}</p>
+        <button onClick={this.clicked} className='option__button' type='button' value={this.props.optionButton}>{this.props.optionButton}</button>
       </article>
     );
   }
