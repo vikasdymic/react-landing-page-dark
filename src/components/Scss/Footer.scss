@@ -14,6 +14,15 @@
         / 1fr 1fr 1fr;
   grid-column-gap: 2rem;
   height: 404px;
+  @include breakpoint(tablet-landscape) {
+    grid-template:
+        'about' auto
+        'support' auto
+        'info' auto
+        / 1fr;
+    grid-column-gap: 0;
+    height: 554px;
+  }
 }
 
 .footer__lower__background,
@@ -31,6 +40,9 @@
   grid-column: 1 / 4;
   grid-row: 1 / 4;
   background-color: $dark4;
+  @include breakpoint(tablet-landscape) {
+    grid-column: 1 / 2;
+  }
 }
 
 .footer__lower__background {
@@ -47,6 +59,9 @@
 
 .footer__upper__about {
   grid-area: about;
+  @include breakpoint(tablet-landscape) {
+    align-self: flex-end;
+  }
 }
 
 .footer__upper__about__heading,
@@ -70,6 +85,9 @@
 
 .footer__upper__support {
   grid-area: support;
+  @include breakpoint(tablet-landscape) {
+    align-self: center;
+  }
 }
 
 .footer__upper__support__list {
@@ -105,6 +123,9 @@
 
 .footer__upper__info {
   grid-area: info;
+  @include breakpoint(tablet-landscape) {
+    align-self: flex-start;
+  }
 }
 
 .footer__upper__info__paragraph {
