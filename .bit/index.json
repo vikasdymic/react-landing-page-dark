@@ -1,0 +1,202 @@
+[
+  {
+    "id": {
+      "scope": "bit.envs",
+      "name": "compilers/react"
+    },
+    "isSymlink": false,
+    "hash": "acfc8a808ec3ad8abacd313c9c8b456c1fd7b0b3"
+  },
+  {
+    "id": {
+      "scope": "bit.envs",
+      "name": "internal/get-babel-options"
+    },
+    "isSymlink": false,
+    "hash": "d4771e232e52a7a9ef391bf363d523bc932b014d"
+  },
+  {
+    "id": {
+      "scope": "bit.envs",
+      "name": "internal/babel-base-compiler"
+    },
+    "isSymlink": false,
+    "hash": "98f497a5e1cba818d2d5da02020ed566a572b936"
+  },
+  {
+    "id": {
+      "scope": "bit.utils",
+      "name": "object/has-own-property"
+    },
+    "isSymlink": false,
+    "hash": "68b489f0ac79f13787c77dc1fd6a7beb18a7b6ba"
+  },
+  {
+    "id": {
+      "scope": "bit.utils",
+      "name": "object/group-by"
+    },
+    "isSymlink": false,
+    "hash": "9155f60c15a0d4c1c0301f15ef2a09a99687ca77"
+  },
+  {
+    "id": {
+      "scope": null,
+      "name": "footer"
+    },
+    "isSymlink": true,
+    "hash": "d7eb6b340a11a367a1bec55e4a421d949214759f"
+  },
+  {
+    "id": {
+      "scope": "dymic_digital.dymic",
+      "name": "footer"
+    },
+    "isSymlink": false,
+    "hash": "6d36a7e81326500a8a61fac9629cb8effad4903f"
+  },
+  {
+    "id": {
+      "scope": null,
+      "name": "banner1"
+    },
+    "isSymlink": true,
+    "hash": "c3fe46f4f9d5b441d3d6c08d83f66f19915ad7c6"
+  },
+  {
+    "id": {
+      "scope": "dymic_digital.dymic",
+      "name": "banner1"
+    },
+    "isSymlink": false,
+    "hash": "0c4f41044e74602b40f111b21c9b03a0aeb505f5"
+  },
+  {
+    "id": {
+      "scope": null,
+      "name": "details"
+    },
+    "isSymlink": true,
+    "hash": "e9711657b066fc8697f6f46ac6be9ce246e43aac"
+  },
+  {
+    "id": {
+      "scope": "dymic_digital.dymic",
+      "name": "details"
+    },
+    "isSymlink": false,
+    "hash": "96efccdb00179e78a8ec1b0cbfc99caabb3e70da"
+  },
+  {
+    "id": {
+      "scope": null,
+      "name": "faq"
+    },
+    "isSymlink": true,
+    "hash": "e75bc04532a5639ed1e96d1a467f9ce694094864"
+  },
+  {
+    "id": {
+      "scope": "dymic_digital.dymic",
+      "name": "faq"
+    },
+    "isSymlink": false,
+    "hash": "d154b3b6ea95a44e801519469a371da89b964c12"
+  },
+  {
+    "id": {
+      "scope": null,
+      "name": "hero"
+    },
+    "isSymlink": true,
+    "hash": "0911aed621a145fb7a54b129692bc6e22372a4a3"
+  },
+  {
+    "id": {
+      "scope": "dymic_digital.dymic",
+      "name": "hero"
+    },
+    "isSymlink": false,
+    "hash": "24634838fa0f22fb5291ff5de769e7f6eca1394d"
+  },
+  {
+    "id": {
+      "scope": null,
+      "name": "map"
+    },
+    "isSymlink": true,
+    "hash": "37745ed7a0f005fb14522c5cc7c1ba3d9e0df579"
+  },
+  {
+    "id": {
+      "scope": "dymic_digital.dymic",
+      "name": "map"
+    },
+    "isSymlink": false,
+    "hash": "e1216664b1f0ab33fa5d0a2dd8bd3210482c9b1a"
+  },
+  {
+    "id": {
+      "scope": null,
+      "name": "purchase-options"
+    },
+    "isSymlink": true,
+    "hash": "74c0abc336769fffa9e998965295bcf797bdf68f"
+  },
+  {
+    "id": {
+      "scope": "dymic_digital.dymic",
+      "name": "purchase-options"
+    },
+    "isSymlink": false,
+    "hash": "ec833a0f478dc60f76561eef311d9f0079f3411b"
+  },
+  {
+    "id": {
+      "scope": null,
+      "name": "schedule"
+    },
+    "isSymlink": true,
+    "hash": "11e9ba26c91a2db7452a5ef9ff7051e19b6b377a"
+  },
+  {
+    "id": {
+      "scope": "dymic_digital.dymic",
+      "name": "schedule"
+    },
+    "isSymlink": false,
+    "hash": "6b532c00d8c14e6dacfbe28242540dd9342c2107"
+  },
+  {
+    "id": {
+      "scope": null,
+      "name": "speakers"
+    },
+    "isSymlink": true,
+    "hash": "c2a95170dfe1669a5ff373621a2ea7ff41048ea1"
+  },
+  {
+    "id": {
+      "scope": "dymic_digital.dymic",
+      "name": "speakers"
+    },
+    "isSymlink": false,
+    "hash": "5d47b5c7a8454abfeef8b9d2a9185d3c2d2d8962"
+  },
+  {
+    "id": {
+      "scope": null,
+      "name": "sponsors"
+    },
+    "isSymlink": true,
+    "hash": "5595462b1a36c6022cca7eb70d6780e00b3e2987"
+  },
+  {
+    "id": {
+      "scope": "dymic_digital.dymic",
+      "name": "sponsors"
+    },
+    "isSymlink": false,
+    "hash": "66189d76ff03e9deee86cd57deefd89b02011c15"
+  }
+]
